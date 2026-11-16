@@ -22,7 +22,7 @@
     {
       id: 'task-diet',
       icon: 'TD',
-      status: 'API',
+      status: 'API (Solo)',
       title: 'Task Diet',
       subtitle: 'API de receitas com filtros alimentares',
       summary:
@@ -43,13 +43,13 @@
     {
       id: 'bot-vacinacao',
       icon: 'BV',
-      status: 'Em grupo',
+      status: 'API (Em grupo)',
       title: 'Bot de Vacinação',
       subtitle: 'Bot/API de agendamento e notificações',
       summary:
         'Bot/API desenvolvido em grupo na FATEC, com lógica de agendamento de vacinação e envio de notificações aos usuários.',
       description:
-        'Projeto desenvolvido em equipe durante o curso na FATEC. O bot/API organiza o agendamento de vacinação e dispara notificações para manter os usuários informados, exigindo boa divisão de tarefas e integração entre as partes do sistema.',
+        'Projeto desenvolvido em equipe durante o curso na FATEC. O desenvolvedor preparou dados via Json (fazendo scrapping de páginas autorizadas), estes que continham as informações de vacinas por idade, afim do bot poder apresentar informações especificas sobre qual vacina o usuário deve tomar conforme sua idade, de crianças até idosos.',
       highlights: [
         'Lógica de agendamento de vacinação',
         'Notificações para os usuários',
