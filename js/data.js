@@ -62,20 +62,26 @@
       ],
     },
     {
-      /* Card reservado: remova ou substitua quando tiver o próximo projeto. */
-      id: 'em-breve',
-      icon: '+',
-      status: 'Em breve',
-      title: 'Próximo projeto',
-      subtitle: 'Espaço reservado',
-      summary:
-        'Substituir pelo próximo projeto (no arquivo data.js).',
-      description:
-        'Aqui entra o seu próximo projeto. obs.: O carrossel se reorganiza automaticamente.',
-      highlights: ['Edite título, descrição e tags', 'Adicione links do GitHub ou demo', 'Inclua quantos projetos quiser'],
-      tags: ['Go', 'React', 'SQL'],
-      links: [],
-    },
+     id: 'landing-dm',
+     icon: 'DM',
+     status: 'Web (Em grupo)',
+     title: 'Landing Page DM',
+     subtitle: 'Captação e pré-qualificação de clientes',
+     summary:
+       'Aplicação web de captação de clientes para cartões, com formulário em etapas e aprovação ou reprovação automática conforme as regras da empresa parceira.',
+     description:
+       'Projeto Integrador II da FATEC, feito em equipe com metodologia Scrum (3 sprints, Jira e GitHub). Fui encarregado de criar uma conexão do backend em python, com framework flask, com o java script usado no site, logo após fiz as condições referente a renda do cliente, fiz e conectei as paginas de validação/negação/analise, tudo conectado ao framework em python como java script.
+       'Formulário em 4 etapas, com busca de endereço por CEP e máscaras de campos',
+       'Aprovação e reprovação automáticas por tipo de cartão, renda e localização (UF da loja)',
+       'Painel administrativo com dashboard, cadastro de parceiros e de vendedores',
+       'Back-end Flask em camadas (rotas, services, repository) com MySQL, em Docker',
+     ],
+     tags: ['Python', 'Flask', 'MySQL', 'Docker', 'JavaScript', 'Scrum'],
+     links: [
+       { label: 'Código no GitHub', url: 'COLE_AQUI_O_LINK_DO_REPOSITORIO' },
+       { label: 'Demonstração (YouTube)', url: 'https://youtu.be/BsbRDVgEaKY' },
+     ],
+   },
   ];
 
   global.PortfolioData = { projects };
