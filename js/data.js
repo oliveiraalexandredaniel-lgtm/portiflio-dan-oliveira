@@ -49,7 +49,7 @@
       summary:
         'Bot/API desenvolvido em grupo na FATEC, com lógica de agendamento de vacinação e envio de notificações aos usuários.',
       description:
-        'Projeto desenvolvido em equipe durante o curso na FATEC. O desenvolvedor preparou dados via Json (fazendo scrapping de páginas autorizadas), estes que continham as informações de vacinas por idade, afim do bot poder apresentar informações especificas sobre qual vacina o usuário deve tomar conforme sua idade, de crianças até idosos.',
+        'Projeto desenvolvido em equipe durante o curso na FATEC. Desenvolvi dados via Json (fazendo scrapping de páginas autorizadas), estes que continham as informações de vacinas por idade, afim do bot poder apresentar informações especificas sobre qual vacina o usuário deve tomar conforme sua idade, de crianças até idosos.',
       highlights: [
         'Lógica de agendamento de vacinação',
         'Notificações para os usuários',
