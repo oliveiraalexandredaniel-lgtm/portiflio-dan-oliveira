@@ -1,4 +1,4 @@
-Claro! Aqui está uma versão pronta para um README em Markdown, com o texto reorganizado e mais profissional:
+
 
 # Portfólio Dan Oliveira
 
